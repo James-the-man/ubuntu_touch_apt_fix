@@ -25,3 +25,4 @@ ln -s $(pwd)subsystem/var/lib/dpkg /var/lib/dpkg
 ln -s $(pwd)subsystem/var/cache/apt /var/cache/apt
 ln -s $(pwd)subsystem/var/log/dpkg.log /var/log/dpkg.log
 
+echo "Done";
