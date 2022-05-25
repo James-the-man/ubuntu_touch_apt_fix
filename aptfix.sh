@@ -15,6 +15,7 @@ cp -r /var/log/apt /home/phablet/./subsystem/var/log/
 cp -r /var/lib/dpkg /home/phablet/./subsystem/var/lib/
 cp /var/log/dpkg.log /home/phablet/./subsystem/var/log/
 
+rm -r /var/cache/apt
 rm -r /var/lib/apt
 rm -r /var/log/apt
 rm -r /var/lib/dpkg
