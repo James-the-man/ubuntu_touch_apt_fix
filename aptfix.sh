@@ -5,6 +5,7 @@ if test $(id -u) -ne 0; then
         exit 0;
 fi
 
+mount -o remount,rw /
 mkdir -p /home/phablet/.subsystem/var/cache/
 mkdir -p /home/phablet/.subsystem/var/log/
 mkdir -p /home/phablet/.subsystem/var/lib/
